@@ -13,7 +13,7 @@ y = Y = cc.LIGHTYELLOW_EX
 w = W = cc.RESET
 
 clear = lambda: system('cls') if os_name == 'nt' else system('clear')
-def _input(text):print(text, end='');return input()
+def _input(text):print(text, end='bye');return input()
 
 baner = f'''
 {r} _   _       _       {m} ____        _   
